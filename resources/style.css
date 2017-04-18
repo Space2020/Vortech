@@ -1,0 +1,35 @@
+html, body{
+  font-size: 16px;
+}
+
+
+img{
+  width: 9rem;
+}
+
+.navbar-default{
+  height: 5rem;
+}
+
+.compressor-image{
+  background-image: url("comp-sta3.png");
+  opacity: 0.5;
+  height: 30rem;
+  background-position: center;
+  background-size: cover;
+  margin-top: 5rem;
+}
+
+.container{
+  padding: 0 2rem;
+}
+
+.mission q p{
+  opacity: 1;
+}
+
+q p{
+  font-size: 2rem;
+  color: black;
+  max-width: 20rem;
+}
