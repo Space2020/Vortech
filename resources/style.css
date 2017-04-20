@@ -1,35 +1,38 @@
 html, body{
   font-size: 16px;
+  font-family: 'Lato', sans-serif;
 }
 
-
 img{
-  width: 9rem;
+  height: 3rem;
 }
 
 .navbar-default{
   height: 5rem;
 }
 
-.compressor-image{
-  background-image: url("comp-sta3.png");
-  opacity: 0.5;
-  height: 30rem;
-  background-position: center;
-  background-size: cover;
+.mission-statement{
+  background-color: #0000FF;
   margin-top: 5rem;
+  height: 10rem;
 }
 
-.container{
-  padding: 0 2rem;
+.mission{
+  padding: 1.5rem 0;
 }
 
-.mission q p{
-  opacity: 1;
+h1{
+  color: white;
+  text-align: center;
 }
 
-q p{
-  font-size: 2rem;
-  color: black;
-  max-width: 20rem;
+p{
+  font-size: 0.875rem;
+  color: white;
+  text-align: center;
+}
+
+.container-fluid{
+  margin: 0;
+  padding: 0;
 }
