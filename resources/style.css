@@ -1,15 +1,32 @@
+
+/* GLOBAL STYLING */
+
 html, body{
   font-size: 16px;
   font-family: 'Lato', sans-serif;
 }
 
-img{
-  height: 3rem;
+.container-fluid{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* BRANDING & NAVBAR SECTION */
+
+.navbar-brand img{
+  height: 3.5rem;
 }
 
 .navbar-default{
   height: 5rem;
 }
+
+.navbar li{
+  padding: 15px 0;
+}
+
+/* MISSION STATEMENT QUOTE */
 
 .mission-statement{
   background-color: #0000FF;
@@ -32,7 +49,9 @@ p{
   text-align: center;
 }
 
-.container-fluid{
-  margin: 0;
-  padding: 0;
+/* MAIN PHOTO SECTION*/
+
+.main-photo img{
+  min-height: 20rem;
+  min-width: 20rem;
 }
