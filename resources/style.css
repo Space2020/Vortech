@@ -23,8 +23,17 @@ html, body{
 }
 
 .navbar li{
-  padding: 15px 0;
+  padding: .875rem 0.5rem;
+  letter-spacing: 0.03rem;
 }
+
+
+ul li:hover{
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+
 
 /* MISSION STATEMENT QUOTE */
 
