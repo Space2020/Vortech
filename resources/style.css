@@ -23,14 +23,15 @@ html, body{
 }
 
 .navbar li{
-  padding: .875rem 0.5rem;
+  margin: .875rem 0.5rem;
   letter-spacing: 0.03rem;
 }
 
 
-.nav ul li:hover{
-  background-color: #fff;
-  border-radius: 2px;
+.navbar li:hover{
+  border: 1px solid #0000FF;
+  border-radius: 3px;
+  font-weight: bold;
 }
 
 
