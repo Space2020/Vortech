@@ -28,7 +28,7 @@ html, body{
 }
 
 
-ul li:hover{
+.nav ul li:hover{
   background-color: #fff;
   border-radius: 2px;
 }
@@ -117,4 +117,28 @@ h1{
   font-size: 0.875rem;
   max-width: 18rem;
   line-height: 1rem;
+}
+
+
+/* Locations Section */
+
+.locations{
+  /*border-top: 1px solid #000;*/
+  /*border-bottom: 1px solid #000;*/
+  background-color: #F8F8F8;
+  padding: 3rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.locations ul{
+  list-style: none;
+  line-height: 2rem;
+}
+
+.locations iframe{
+  border: 1px solid #000;
+  pointer-events: none;
 }
