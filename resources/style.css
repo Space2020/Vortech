@@ -1,6 +1,7 @@
 
 /* GLOBAL STYLING */
 
+
 html, body{
   font-size: 16px;
   font-family: 'Lato', sans-serif;
@@ -70,12 +71,12 @@ html, body{
 }
 
 .passion p{
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   color: black;
-  font-weight: bold;
+  font-style: italic;
   text-align: center;
   line-height: 2rem;
-  font-family: 'League Script', cursive;
+  font-family: 'Muli', sans-serif;
 }
 
 /* MAIN PHOTO SECTION*/
@@ -200,4 +201,17 @@ footer{
 
 i{
   color: #FFF;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 765px) {
+
+.navbar ul{
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+.mission{
+  padding-top: 7rem;
 }
