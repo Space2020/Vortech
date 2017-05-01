@@ -205,27 +205,61 @@ i{
   color: #FFF;
 }
 
+/* CONTACT PAGE */
+
+.contact-info{
+  padding: 3rem 0 8rem;;
+  text-align: center;
+}
+
+#footer{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  background-color: #000;
+  color: #FFF;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Media Queries */
 
-@media only screen and (min-device-width: 320px)
-  and (max-device-width: 480px){
+/*@media only screen and (min-device-width: 320px){
 
 .navbar ul{
   text-align: center;
-  padding-top: 1.5rem;
+  margin: 3rem 0;
 }
 
 .mission{
-  padding-top: 7rem;
+  padding: 7rem 0;
+  }
 }
 
+@media only screen and (min-device-width: 768px){
 
-@media only screen and (min-device-width: 768px)
-  and (max-device-width: 1024px){
+    ul li a{
+      font-size: .0875rem;
+      padding: .0875rem;
+    }
 
-    .navbar ul{
+    .navbar ul a{
       text-align: center;
-      padding-top: 1.5rem;
+      margin: 3rem 0;
     }
 
     .mission{
@@ -233,10 +267,10 @@ i{
     }
   }
 
+  @media only screen and (min-device-width: 992px){
 
-
-  /* CONTACT PAGE */
-
-.business-hours{
-  padding-top: 3rem;
-}
+    .contact-info{
+      padding-bottom: 5rem;
+    }
+  }
+*/
