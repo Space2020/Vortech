@@ -5,6 +5,7 @@
 html, body{
   font-size: 16px;
   font-family: 'Lato', sans-serif;
+  height: 100%;
 }
 
 .container-fluid{
@@ -174,6 +175,7 @@ footer{
   color: #FFF;
 }
 
+
 .footer{
   display: flex;
   justify-content: space-around;
@@ -230,3 +232,11 @@ i{
       padding-top: 7rem;
     }
   }
+
+
+
+  /* CONTACT PAGE */
+
+.business-hours{
+  padding-top: 3rem;
+}
