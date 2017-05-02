@@ -217,7 +217,7 @@ i{
   bottom: 0;
   left: 0;
   right: 0;
-  position: fixed;
+  /*position: fixed;*/
   background-color: #000;
   color: #FFF;
   width: 100%;
@@ -253,22 +253,7 @@ i{
   }
 }
 
-/*@media only screen and (max-device-width: 775px) {
-
-  .navbar ul{
-    font-size: 0.55rem;
-    text-align: center;
+@media only screen and (min-width : 480px) {
+  #footer{
+    max-height:
   }
-
-  .padding ul{
-    padding: 10rem 0;
-  }
-}*/
-
-/* Media Queries */
-
-
-/*.mission{
-  padding: 7rem 0;
-  }*/
-}
