@@ -246,14 +246,14 @@ i{
 
 
 
-/*@media only screen and (min-device-width: 992px) {
+@media only screen and (min-device-width: 992px) {
 
   .contact-info{
     margin-bottom: 5rem;
   }
 }
 
-@media only screen and (max-device-width: 775px) {
+/*@media only screen and (max-device-width: 775px) {
 
   .navbar ul{
     font-size: 0.55rem;
@@ -271,19 +271,4 @@ i{
 /*.mission{
   padding: 7rem 0;
   }*/
-}
-
-@media only screen and (max-device-width: 768px){
-
-    .navbar ul a{
-      text-align: center;
-    }
-
-    .navbar-nav{
-      margin: 15px;
-    }
-
-    .mission-statement{
-      padding-top: 1rem;
-    }
 }
