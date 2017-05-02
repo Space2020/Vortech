@@ -223,16 +223,25 @@ i{
 }
 
 
+/* About Us Page */
 
+.about-us{
+  padding-bottom: 2rem;
+}
 
+.about-us img{
+  margin: 2.5rem 0 0 0 ;
+  width: 18rem;
+  height: 14rem;
+}
 
+.owners{
+  padding: 1rem 0 1rem 0;
+}
 
-
-
-
-
-
-
+.about button{
+  margin: 0 0 3rem 0;
+}
 
 
 
