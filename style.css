@@ -25,9 +25,10 @@ html, body{
 }
 
 .navbar .nav li{
-  margin: .875rem .875rem;
+  margin: .875rem;
   letter-spacing: 0.03rem;
   font-weight: 400;
+  display: inline-block;
 }
 
 .navbar .nav li a{
@@ -92,7 +93,7 @@ html, body{
 }
 
 .main-photo img{
-  max-width: 30rem;
+  max-width: 20rem;
 }
 
 
@@ -245,41 +246,44 @@ i{
 
 
 
-/* Media Queries */
+/*@media only screen and (min-device-width: 992px) {
 
-/*@media only screen and (min-device-width: 320px){
-
-.navbar ul{
-  text-align: center;
-  margin: 3rem 0;
-}
-
-.mission{
-  padding: 7rem 0;
+  .contact-info{
+    margin-bottom: 5rem;
   }
 }
 
-@media only screen and (min-device-width: 768px){
+@media only screen and (max-device-width: 775px) {
 
-    ul li a{
-      font-size: .0875rem;
-      padding: .0875rem;
-    }
+  .navbar ul{
+    font-size: 0.55rem;
+    text-align: center;
+  }
+
+  .padding ul{
+    padding: 10rem 0;
+  }
+}*/
+
+/* Media Queries */
+
+
+/*.mission{
+  padding: 7rem 0;
+  }*/
+}
+
+@media only screen and (max-device-width: 768px){
 
     .navbar ul a{
       text-align: center;
-      margin: 3rem 0;
     }
 
-    .mission{
-      padding-top: 7rem;
+    .navbar-nav{
+      margin: 15px;
     }
-  }
 
-  @media only screen and (min-device-width: 992px){
-
-    .contact-info{
-      padding-bottom: 5rem;
+    .mission-statement{
+      padding-top: 1rem;
     }
-  }
-*/
+}
