@@ -4,7 +4,7 @@
 
 html, body{
   font-size: 16px;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto', sans-serif;
   height: 100%;
 }
 
@@ -63,7 +63,8 @@ html, body{
   color: #0000FF;;
   text-align: center;
   font-size: 4rem;
-  font-weight: 300;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .passion{
@@ -91,11 +92,6 @@ html, body{
   background-color: #FFF;
   padding: 3rem 0;
 }
-
-.main-photo img{
-  max-width: 20rem;
-}
-
 
 
 /* SERVICES SECTION */
@@ -217,7 +213,6 @@ i{
   bottom: 0;
   left: 0;
   right: 0;
-  /*position: fixed;*/
   background-color: #000;
   color: #FFF;
   width: 100%;
@@ -252,8 +247,3 @@ i{
     margin-bottom: 7rem;
   }
 }
-
-@media only screen and (min-width : 480px) {
-  #footer{
-    max-height:
-  }
